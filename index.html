@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="page.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;700&family=Raleway:wght@800&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="intro">
+        <h1>Learn to code by watching others</h1> 
+       <p>See how experienced developers solve
+        problems in real-time. Watching scripted tutorials is great, but
+        understanding how developers think is invaluable.</p> 
+      </div>
+      <div class="section">
+        <div class="info">
+          <h5><strong>Try it free 7 days</strong> then $20/mo. thereafter</h5>
+        </div>
+        <div class="signUp">
+          <form>
+            <label>
+              <input type="FirstName" name="FirstName" id="FirstName" placeholder="First Name" required>
+        </label>
+         <label>
+           <input type="LastName" name="LastName" id="LastName" placeholder="Last Name" required>
+           <span id="LastError"></span>
+         </label> 
+         <label>
+           <input type="email" id="email" placeholder="Email Address">
+         </label> 
+         <label>
+           <input type="password" name="password" id="password" placeholder="Password" required>
+         </label> 
+         <button id="claimButton" type="submit">Claim your free trial</button>
+        </form> 
+        By clicking the button, you are agreeing to our <strong><a href="www.dkdsd.com" id="TermsServices">Terms and Services<a></strong>
+        </div>
+      </div>
+    </div>
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by
+        <a href="#">Your Name Here</a>
+        .
+      </p>
+    </footer> -->
+    <script src="page.js"></script>
+  </body>
+</html>
